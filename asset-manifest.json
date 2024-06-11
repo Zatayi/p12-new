@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/p12-new/static/css/main.3339db6b.css",
+    "main.js": "/p12-new/static/js/main.e4c4dd74.js",
+    "static/media/jay-wennington-N_Y88TWmGwA-unsplash.jpg": "/p12-new/static/media/jay-wennington-N_Y88TWmGwA-unsplash.a4f8ff417d5edf70e6c0.jpg",
+    "static/media/sophie-bluel.png": "/p12-new/static/media/sophie-bluel.115d313bea380c74a3b4.png",
+    "static/media/Logo_portfolio.png": "/p12-new/static/media/Logo_portfolio.55c996440a884eca360a.png",
+    "static/media/banner_home.jpg": "/p12-new/static/media/banner_home.2c95ed36e6bd0ea21972.jpg",
+    "static/media/depositphotos_83882494-stock-photo-keyboard-contact-us-black.jpg": "/p12-new/static/media/depositphotos_83882494-stock-photo-keyboard-contact-us-black.30dff0bf1664321cd47d.jpg",
+    "static/media/ninacarducci.webp": "/p12-new/static/media/ninacarducci.917d92f0b20e445fa494.webp",
+    "index.html": "/p12-new/index.html",
+    "main.3339db6b.css.map": "/p12-new/static/css/main.3339db6b.css.map",
+    "main.e4c4dd74.js.map": "/p12-new/static/js/main.e4c4dd74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3339db6b.css",
+    "static/js/main.e4c4dd74.js"
+  ]
+}
