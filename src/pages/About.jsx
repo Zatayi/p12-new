@@ -6,6 +6,7 @@ import BannerHome from "../assets/image/banner_home.jpg"
 export default function About() {
 	return (
 		<>
+			<h1>Qui suis-je ?</h1>
 			<img src={BannerHome}alt="banner"className="banner-container"></img>
 			<p>Je m'appelle Boris Balligand, friand de nouvelles technologies et désireux d'approfondir mes connaissances dans le développement web, 
 			j'ai suivi une formation d'intégrateur web.</p>

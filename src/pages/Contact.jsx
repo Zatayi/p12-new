@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
+import Contactimg from "../assets/image/depositphotos_83882494-stock-photo-keyboard-contact-us-black.jpg" 
 
 export default function Contact() {
 	return (
 	<div className="contact-form">
         <h2>Contactez-moi</h2>
+    <div className="contact-part">
+        <img src={Contactimg}alt="banner"className="banner-container"></img>
     <form action="https://formspree.io/f/mqkrrabn"
     method="POST" className="form">
         <div className="form-name">
@@ -22,6 +25,7 @@ export default function Contact() {
         </div>
         <button type="submit" className="form-button">Envoyer</button>
     </form>
+    </div>
 			<Link to="/" className="errorLinkHome">
 				Retourner sur la page d’accueil
 			</Link>
