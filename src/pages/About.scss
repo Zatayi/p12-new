@@ -1,0 +1,163 @@
+p{
+display: flex;
+align-items: center;
+font-family: montserrat;
+font-size: 25px;
+margin-left: 20%;
+margin-right: 20%;
+text-align: center;
+}
+.linkreal{
+	display: flex;
+	font-size: 25px;
+	cursor: pointer;
+	font-family: montserrat;
+	text-decoration: none;
+	color: blue;
+	justify-content: center;
+	text-align: center;
+	font-style: italic;
+	text-decoration: none;
+	&:hover,
+            &:focus,
+            &:active {
+                text-decoration: underline;
+            }
+	}
+.collapse {
+    margin-bottom: 60px;
+	margin-top: 20px;
+	width: 100%;
+        
+	&__visible {
+        
+		background-color:  rgba(255, 96, 96, 1);
+		color: #FFFFFF;
+        font-family: montserrat;
+		cursor: pointer;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 54px;
+		
+		border-radius: 5px;
+		width: 100%;
+        h2{
+            padding-left: 15px;
+            font-weight: 700;
+        }
+        img{
+            margin-right: 10px;
+        }
+	}
+
+	&__toggle {
+        width: 100%;
+		opacity: 0;
+		color: rgba(255, 96, 96, 1);  
+		background-color: #f7f7f7;
+		border-radius: 5px;
+		transition: opacity 0.4s ease-in-out, height 0.4s 0.4s ease-in-out;
+		margin-bottom: -92px;
+        
+				
+		p {
+            color: black;
+			margin: 0;
+			padding: 12px;
+            font-family: montserrat;
+            font-size: 14px;
+			
+		}
+	}
+}
+ 
+
+.animated {
+    width: 100%;
+	opacity: 1;
+	transition: height 0.4s ease-in-out, opacity 0.4s 0.4s ease-in-out;
+	margin-bottom: 42px;
+}
+
+.chevron {
+	width: 32px;
+	transform: rotate(0deg);
+	transition: 0.4s 0.4s ease-in-out;
+    
+}
+.rotated {
+    transform: rotate(180deg);
+    transition: 0.4s ease-in-out;
+    
+}
+
+
+.about-style {
+	width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+	
+}
+
+.collapse-fiche-container {
+	
+	width: 100%;
+
+}
+
+.equipList {
+	list-style-type: none;
+}
+
+.banner-about{
+    
+	img{
+        display: flex;
+        height: 350px;
+        object-fit: cover;
+		width: 90%;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 800px) {
+.collapse{
+	margin-bottom: 50px;
+}
+p{
+	font-size: 15px;
+	margin-left: 20%;
+	margin-right: 20%;
+	}
+.collapse__toggle p {
+    color: black;
+    margin: 0;
+    padding: 8px;
+	padding-top: 18px;
+	padding-bottom: 4%;
+    pointer-events: none;
+    font-family: montserrat;
+    font-size: 10px;
+}
+.banner-about img {
+    height: 111px;
+    
+}
+.about-style {
+    width: 90%;
+}
+.collapse__visible {
+    height: 30px;
+}
+h2{
+    font-size: 13px;
+}
+.chevron {
+    width: 16px;
+    
+}
+
+}

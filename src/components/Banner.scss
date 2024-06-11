@@ -1,0 +1,21 @@
+.banner-container {
+	display: flex;
+	justify-content: center;
+	height: 350px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	width: 80%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+@media screen and (max-width: 800px) {
+
+.banner-container {
+    height: 111px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	width: 80%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+}
