@@ -26,10 +26,13 @@
             text-decoration: none;
             font-family: montserrat;
             font-weight: 500;
+            transition: box-shadow 0.7s ease-in-out, transform 1.8s ease-in-out;
             &:hover,
             &:focus,
             &:active {
                 text-decoration: underline;
+                box-shadow: 0 0 10px 5px rgba(20, 122, 180, 0.7);
+                transform: scale(1.05);
             }
         }
         ul{
