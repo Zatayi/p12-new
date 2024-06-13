@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "description": "Ce projet avait pour but de recréer le site d'une photographe Sophie Bluel en transformant du HTML en javascript, il m'a permit notamment d'apprendre à utiliser fetch pour récupérer des données du back-end.",
+        "competences": ""
+    },
+    {
+        "id": "2",
+        "description": "Ce projet avait pour but de recréer le site d'une photographe Sophie Bluel en transformant du HTML en javascript, il m'a permit notamment d'apprendre à utiliser fetch pour récupérer des données du back-end.",
+        "competences": ""
+    },
+    {
+        "id": "3",
+        "description": "Ce projet avait pour but de recréer le site d'une photographe Sophie Bluel en transformant du HTML en javascript, il m'a permit notamment d'apprendre à utiliser fetch pour récupérer des données du back-end.",
+        "competences": ""
+    }
+]

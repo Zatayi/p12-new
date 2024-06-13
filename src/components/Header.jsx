@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logointegrator from "../assets/image/Logo_portfolio.png";
+import logointegrator from "../assets/image/Logo_portfolio.webp";
 
 
 const Header = () => {

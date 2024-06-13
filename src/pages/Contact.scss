@@ -3,14 +3,62 @@
     flex-direction: column;
     align-items: flex-end;
     margin: auto;
+   
 }
 .contact-part{
     display: flex;
     flex-direction: row;
     margin-right: 50px;
     img{
-        width: 60%;
+        width: 50%;
     }
+}
+.errorLinkHome{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: montserrat;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(65, 65, 185);
+    border-radius: 15px;
+    margin: auto;
+    padding-top: 10px;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    &:hover {
+        box-shadow: 0 0 10px 5px rgba(20, 122, 180, 0.7);
+        transform: scale(1.05);
+      }
+}
+input{
+    height: 30px;
+    width: 200px;
+    background-color:rgb(214, 248, 214);
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+}
+label{
+    padding-right: 5px;
+    color: black;
+    font-family: montserrat;
+    font-weight: 800;
+}
+textarea{
+    background-color: rgb(214, 248, 214);
+    border-color: black;
+    width: 300px;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+
+}
+.email-icon{
+        height: 30px;
+        
+    
 }
 .contact-form{
     
@@ -19,15 +67,18 @@
     text-align: center;
 }
 .form-name{
+    align-items: center;
     display: flex;
     margin-bottom: 20px;
 }
 .form-mail{
+    align-items: center;
     display: flex;
     margin-bottom: 20px;
     
 }
 .form-mess{
+    align-items:baseline;
     display: flex;
     margin-bottom: 20px;
     
@@ -39,7 +90,7 @@
     justify-content: center;
     margin: auto;
     color: white;
-    background-color: rgb(90, 122, 209);
+    background-color: rgb(65, 65, 185);
     border-radius: 15px;
     width: 120px;
     margin-bottom: 20px;
@@ -64,8 +115,21 @@
             width: 80%;
         }
     }
-
-
+input{
+    width: 120px;
+}
+textarea{
+    width: 160px;
+}
+label{
+    font-size: 10px;
+}
+.errorLinkHome{
+    width: 130px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 
 
 

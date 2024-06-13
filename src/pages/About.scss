@@ -11,33 +11,52 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: rgb(90, 122, 209);
+    color: rgb(65, 65, 185);
     text-align: center;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(65, 65, 185);
+    text-align: center;
+}
+.icon{
+	height: 60px;
+}
 .linkreal{
-	display: flex;
-	font-size: 25px;
-	cursor: pointer;
-	font-family: montserrat;
-	text-decoration: none;
-	color: blue;
-	justify-content: center;
-	text-align: center;
-	font-style: italic;
-	text-decoration: none;
-	&:hover,
-            &:focus,
-            &:active {
-                text-decoration: underline;
-            }
-	}
+        display: flex;
+        text-align: center;
+        font-family: montserrat;
+        font-weight: 500;
+        justify-content: center;
+        margin: auto;
+        color: white;
+        background-color: rgb(65, 65, 185);
+        border-radius: 15px;
+        width: 150px;
+        padding-top: 10px;
+        margin: auto;
+        height: 30px;
+        cursor: pointer;
+        border-color: unset;
+        border: 0px;
+        text-align: center;
+        transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+        text-decoration: none;
+        &:hover {
+            box-shadow: 0 0 10px 5px rgba(20, 122, 180, 0.7);
+            transform: scale(1.05);
+          }
+}
+
 
 @media screen and (max-width: 800px) {
 h1{
     display: flex;
     justify-content: center;
-    font-size: 22px;
-    color: rgb(90, 122, 209);
+    font-size: 30px;
+    color: rgb(65, 65, 185);
     text-align: center;
 }
 p{
@@ -47,7 +66,7 @@ p{
 	}
 
 h2{
-    font-size: 13px;
+    font-size: 20px;
 }
 
 }
