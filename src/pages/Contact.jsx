@@ -12,17 +12,17 @@ export default function Contact() {
     <form action="https://formspree.io/f/mqkrrabn"
     method="POST" className="form">
         <div className="form-name">
-            <label for="name">Nom: </label>
+            <label htmlFor="name">Nom: </label>
             <input type="text" id="name" name="name" placeholder="Nom Prénom" required></input>
         </div>
 
         <div className="form-mail">
-            <label for="email">E-mail:</label>
+            <label htmlFor="email">E-mail:</label>
             <input type="email" id="email" name="email" placeholder="mail@exemple.com"required></input>
         </div>
         
         <div className="form-mess">
-            <label for="message">Message: </label>
+            <label htmlFor="message">Message: </label>
             <textarea id="message" name="message" rows="8" required></textarea>
         </div>
         <button type="submit" className="form-button">Envoyer</button>
