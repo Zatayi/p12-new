@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import './Carousel.scss';
 
 const Carousel = ({ slides }) => {
   const [index, setIndex] = useState(0);
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setIndex((prevIndex) => (prevIndex + 1) % slides.length);
-  };
+  }, [slides.length]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
-  };
+  }, [slides.length]);
 
-  useEffect((nextSlide) => {
+  useEffect(() => {
     const interval = setInterval(nextSlide, 5000); // Change de slide toutes les 5 secondes
     return () => clearInterval(interval);
-  }, [slides.length]);
+  }, [slides.length, nextSlide]);
 
   return (
     <div className="carousel">
