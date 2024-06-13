@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/p12-new/static/css/main.3339db6b.css",
-    "main.js": "/p12-new/static/js/main.3556fd36.js",
-    "static/media/jay-wennington-N_Y88TWmGwA-unsplash.jpg": "/p12-new/static/media/jay-wennington-N_Y88TWmGwA-unsplash.a4f8ff417d5edf70e6c0.jpg",
-    "static/media/sophie-bluel.png": "/p12-new/static/media/sophie-bluel.115d313bea380c74a3b4.png",
-    "static/media/Logo_portfolio.png": "/p12-new/static/media/Logo_portfolio.55c996440a884eca360a.png",
-    "static/media/banner_home.jpg": "/p12-new/static/media/banner_home.2c95ed36e6bd0ea21972.jpg",
-    "static/media/depositphotos_83882494-stock-photo-keyboard-contact-us-black.jpg": "/p12-new/static/media/depositphotos_83882494-stock-photo-keyboard-contact-us-black.30dff0bf1664321cd47d.jpg",
-    "static/media/ninacarducci.webp": "/p12-new/static/media/ninacarducci.917d92f0b20e445fa494.webp",
+    "main.css": "/p12-new/static/css/main.16ed9874.css",
+    "main.js": "/p12-new/static/js/main.ea0940a4.js",
+    "static/media/sophie-bluel.webp": "/p12-new/static/media/sophie-bluel.095d8cf497955e7d0348.webp",
+    "static/media/ohmyfood.webp": "/p12-new/static/media/ohmyfood.a633f0587fcc87b2cdd2.webp",
+    "static/media/projet1.png": "/p12-new/static/media/projet1.3e8c104205bc7aee63b1.png",
+    "static/media/projet2.png": "/p12-new/static/media/projet2.84b4b5c80a5b50680269.png",
+    "static/media/banner_home.webp": "/p12-new/static/media/banner_home.182f6713f6846a9e07f6.webp",
+    "static/media/projet3.jpg": "/p12-new/static/media/projet3.4ea52f3a9a65c9aea43f.jpg",
+    "static/media/cssicon.webp": "/p12-new/static/media/cssicon.fa45be9b5c9e89c3a78c.webp",
+    "static/media/ninacarducci.webp": "/p12-new/static/media/ninacarducci.ee2e95c7692b84c56716.webp",
+    "static/media/Logo_portfolio.webp": "/p12-new/static/media/Logo_portfolio.d230921df8f4170bc8cb.webp",
+    "static/media/depositphotos_83882494-stock-photo-keyboard-contact-us-black.webp": "/p12-new/static/media/depositphotos_83882494-stock-photo-keyboard-contact-us-black.30dff0bf1664321cd47d.webp",
+    "static/media/react.webp": "/p12-new/static/media/react.a4e39be02a70323c30f3.webp",
+    "static/media/sass.webp": "/p12-new/static/media/sass.e5a809aff8c3e976a2f1.webp",
+    "static/media/github.webp": "/p12-new/static/media/github.5cf9baa838be97f4cc23.webp",
+    "static/media/htmlicon.webp": "/p12-new/static/media/htmlicon.2c022983f2429a17ed63.webp",
+    "static/media/JSicon.webp": "/p12-new/static/media/JSicon.bd8dedd19f1d55edcb5a.webp",
+    "static/media/gitbashicon.webp": "/p12-new/static/media/gitbashicon.e69eb19889e5e4a3646d.webp",
     "index.html": "/p12-new/index.html",
-    "main.3339db6b.css.map": "/p12-new/static/css/main.3339db6b.css.map",
-    "main.3556fd36.js.map": "/p12-new/static/js/main.3556fd36.js.map"
+    "main.16ed9874.css.map": "/p12-new/static/css/main.16ed9874.css.map",
+    "main.ea0940a4.js.map": "/p12-new/static/js/main.ea0940a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3339db6b.css",
-    "static/js/main.3556fd36.js"
+    "static/css/main.16ed9874.css",
+    "static/js/main.ea0940a4.js"
   ]
 }
